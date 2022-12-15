@@ -7,7 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form id="form">
+        <h2 >Pari o dispari?</h2>
+        <label for="number">Scrivi un numero da 1 a 5</label>
+        <input type="number" id="input15" min="1" max="5" value="1">
+        <div>
+            <input type="radio" name="pariDispari" id="pari" value="pari" checked>
+            <label for="even">Pari</label> 
+            <input type="radio" name="pariDispari" id="dispari" value="dispari">
+            <label for="odd">Dispari</label>
+        </div>
+        <button id="btn-control">Gioca!</button>
+        <h2 id="risultatoNumeri"></h2>
+        <div id="finalResult"></div>
+    </form>
+   
+
     <script src="js/script.js"></script>
 </body>
 </html>
